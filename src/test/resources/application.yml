@@ -1,0 +1,19 @@
+server:
+  port: 8030
+  
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      #username: pmcmsconsulta
+      #password: pmcmsconsulta0
+      database: test
+      port: 27017
+      host: localhost
+logging:
+  file: /tmp/logs
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.demo: INFO
+    org.hibernate: INFO
